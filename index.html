@@ -4,61 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework#1 "Git"</title>
 </head>
 <body>
-    <table border="1" style="background-color: pink">
-        
-        <tr>
-            <th style="background-color: palevioletred">Ім'я</th>
-            <th style="background-color: palevioletred">Прізвище</th>
-            <th style="background-color: palevioletred">Телефон</th>
-            <th style="background-color: palevioletred">Email</th>
-        </tr>
-        <tr>
-            <td>Софія</td>
-            <td>Пушкіна</td>
-            <td>098563254</td>
-            <td>sofa123@mail.com</td>
-        </tr>
-        <tr>
-            <td>Анна</td>
-            <td>Кіт</td>
-            <td>097563145</td>
-            <td>anna123@mail.com</td>
-        </tr>
-        <tr>
-            <td>Марта</td>
-            <td>Цвик</td>
-            <td>097562373</td>
-            <td>mar123@mail.com</td> 
-        </tr>
-            <td>Лілія</td>
-            <td>Лисиця</td>
-            <td>096985291</td>
-            <td>lily123@mail.com</td> 
-        <tr>
+    
+   <h1>Домашнє завдання: GIT</h1>
+   <h2>Basic</h2>
+    <p><b>git config --global user.name</b>-встановлює ім'я користувача.</p>
+    <p><b>git config --global user.email</b>-встановлює адресу електронної пошти користувача.</p>
+    <p><b>git init</b>-ініціює пустий репозиторій в поточній директорії.</p>
+    <p><b>git status</b>-перечисляє всі нові або змінені файли,які потребують фіксації.</p>
+    <p><b>git add</b>– додаємо файли в коміт. Зазвичай використовується «.» або «*» для додавання усіх файлів. Щоб додати один файл – вказуємо його ім'я та розширення.</p>
+    <p><b>git commit-m</b>– За допомогою цієї команди ми виконуємо «коміт» змін. Тобто, вказуємо, що поточний зліпок проекту потрібно зберегти.</p>
+    <p><b>git log</b>-історія коммітів для поточної гілки.</p>
+    <p><b>git checkout</b>-переключається на вибрану гілку і оновлює робочу директорію до її стану.</p>
+    <p><b>git branch</b>-список іменованих гілок з показом вибраної гілки.</p>
+    <p><b>git push</b>-пушим (або відправляємо) в репозиторій наші зліпки проекту.</p>
+    <p><b>git pull</b>-команда для отримання змін з репозиторію.</p>
+    <p><b>git merge</b>-вносить зміни з гілки віддаленого репозиторію в поточну гілку локального.</p>
+    <p><b>git clone</b>-скачує репозиторій разом із всією історією його змін.</p>
+    <p><b>.gitignore</b> потрібен, щоб приховати файли і папки від системи контролю версій Git.</p>
+   <h2>Advanced</h2>
+    <p><b>git revert</b>-безпечний спосіб скасувати операцію без втрати історії коммітов. Команда скасовує дії минулих  коммітов , створюючи новий, який містить всі скасовані зміни. Ця команда корисна, коли ви вже запушили зміни в віддалений репозиторій, так як вона зберігає недоторканим вихідний комміт.</p>
+    <p><b>git reset</b>-відміняє всі комміти після заданого, залишаючи всі зміни в робочій директорії.Вона має три основні форми виклику, --soft, --mixed, --hard.</p>
+    <p><b>git rebase</b>-вносить зміни вказаної гілки в поточну гілку.</p>
+    <p><b>git cherry-pick</b>-використовується для перенесення окремих коммітів з однієї гілки в іншу.</p>
+    <p><b>git stash</b>-тимчасово зберігає всі незафіксовані зміни відслідковуваних файлів.</p>
+    <img src="ssh.png">
 
-        </tr>
-    </table>
-        <p><input type="text" value="Введіть Ваше ім'я"></p>
-        <p><input type="text" value="Введіть Ваше прізвище"></p>
-        <p><b>Яка ваша стать?</b></p>
-        <input type="radio" name="стать" checked>Чоловік<br>
-        <input type="radio" name="стать" >Жінка
-       <p> <textarea name="write" cols="25" rows="5">Напишіть Ваше запитання</textarea></p>
-     <select name="міста">
-         <option value="Виберіть місто" selected disabled>Виберіть місто</option>
-         <option value="Львів">Львів</option>
-         <option value="Київ">Київ</option>
-         <option value="Одеса">Одеса</option>
-         <option value="Херсон">Херсон</option>
-     </select> 
-     <p><b>Вибір мови:</b><br></p>
-     <input type="checkbox"><b>Українська</b><br>
-     <input type="checkbox"><b>Русский</b><br>
-     <input type="checkbox"><b>English</b> <br>
-     <p><button>Відправити</button></p>
+
 
 </body>
 </html>
