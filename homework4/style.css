@@ -1,0 +1,269 @@
+.box {
+  position: absolute;
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  background: #ED4C5C;
+  }
+  .text1 {
+  position: absolute;
+  width: 445px;
+  height: 107px;
+  left: 165px;
+  top: 122px;
+  color: #FFFFFF;
+  }
+  .text2{
+      position: absolute;
+      width: 445px;
+      height: 64px;
+      left: 165px;
+      top: 253px;
+       color: #FFFFFF;
+      }
+      .link{
+          position: absolute;
+          left: 163px;
+          top: 357px;
+      }
+      .appstore{
+        position: absolute;
+        left: 57px;
+        top: 2px;
+      }
+      .windows{
+        position: absolute;
+        left: 110px;
+        top: 4px; 
+      }
+      .photo{
+          position: absolute;
+          width: 533px;
+          height: 311px;
+          left: 691px;
+          top: 94px;
+      }
+      .box2{
+          position: absolute;
+          width: 1440px;
+          height: 500px;
+          left: 0px;
+          top: 500px;
+          background: #FFFFFF;
+      }
+      .text3{
+          position: absolute;
+          width: 445px;
+          height: 107px;
+          left: 176px;
+          top: 117px;
+          color: #000000;  
+      }
+      .section{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+      }
+      .text4{
+          position: absolute;
+          width: 434px;
+          height: 64px;
+          left: 176px;
+          top: 213px;
+          color: #000000;
+      }
+      .section2{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .first{
+          position: absolute;
+          width: 255px;
+          height: 60px;
+          left: 735px;
+          top: 117px;
+                }
+      .last{
+          position: absolute;
+          width: 255px;
+          height: 60px;
+          left: 1020px;
+          top: 117px;
+  }
+     .number{
+      position: absolute;
+      width: 540px;
+      height: 60px;
+      left: 735px;
+      top: 201px;
+     }
+     .select{
+      position: relative;
+      width: 540px;
+      height: 60px;
+      left: 735px;
+      top: 285px;
+      appearance: none;
+      background: url(down.svg) no-repeat;
+      background-position: 500px 23px;
+     }
+     .input{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px; 
+        color: rgba(19, 39, 67, 0.5);
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 21px 0 20px 31px;
+     }
+     input {
+      outline: none;
+  }
+  select{
+    outline: none;
+  }
+  button{
+        position: absolute;
+        width: 160px;
+        height: 50px;
+        left: 735px;
+        top: 372px;
+        background: #ED4C5C;
+        border: 1.5px solid #ED4C5C;
+        box-sizing: border-box;
+        border-radius: 6px;
+        line-height: 17px;
+        color: #FFFFFF;
+        outline: none;
+        }
+  .box3{
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+  }     
+.address{
+    position: absolute;
+    width: 65px;
+    height: 22px;
+    left: 166px;
+    top: 85px;
+}
+.group1{  
+position: absolute;
+width: 254px;
+height: 54px;
+left: 166px;
+top: 140px;
+line-height: 18px;
+color: #101010;
+}
+.year{
+    position: absolute;
+    margin-top: 141px;
+    line-height: 14px;
+    color: #101010;
+}
+.services{
+position: absolute;
+width: 67px;
+height: 22px;
+left: 450px;
+top: 85px;
+}
+.group2{
+position: absolute;
+width: 254px;
+height: 114px;
+left: 450px;
+top: 135px;
+line-height: 19px;
+color: #000000;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+.get{
+position: absolute;
+width: 101px;
+height: 22px;
+left: 734px;
+top: 85px;
+}
+p{
+    margin: 0;
+}
+.mail{
+position: absolute;
+width: 122px;
+height: 14px;
+left: 734px;
+top: 140px;
+line-height: 14px;
+color: #101010;
+}
+.phone{
+    position: absolute;
+    width: 96px;
+    height: 14px;
+    left: 734px;
+    top: 165px;
+    line-height: 14px;
+    color: #121212;
+}
+.social{
+    position: absolute;
+width: 66px;
+height: 14px;
+left: 734px;
+top: 199px;
+}
+.in{
+    position: absolute;
+    left: 26px;
+    top: 1px;
+}
+.twitter{
+    position: absolute;
+    left: 54px;
+    top: 1px;
+}
+.info{
+font-family:'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #101010;
+}
+.support{
+    position: absolute;
+height: 22px;
+left: 1022px;
+top: 85px;
+}
+.payment{
+    position: absolute;
+width: 216px;
+height: 31px;
+left: 1028px;
+top: 140px;
+}
+.font{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
