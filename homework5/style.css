@@ -1,0 +1,388 @@
+
+  .header{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4B5D68; 
+    margin: 50px 240px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+      margin: 0 50px 0 0;
+  }
+  .about{
+    font-weight: 800;
+    color: #212353;
+  }
+  .request-btn{
+    width: 210px;
+    height: 60px;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+      }
+      .arrow{
+       
+        margin-left: 20px;
+      }
+    .info+.info{
+        margin-left: 40px;
+    }
+    .info{
+      text-decoration: none;
+    }
+ 
+  .title{
+    display: flex;
+    width: 645px;
+    height: 184px;
+
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 88px;
+    color: #212353;
+  }
+  .text1{
+    width: 380px;
+    height: 120px;
+    
+    margin-top: 50px;
+  }
+  .content{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68; 
+  }
+  .box2{
+      background-image: url(images/photo.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 885px 468px;
+      margin: 147px 112px 0 240px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: flex-start;
+     
+  }
+  .learn-more-btn{
+    width: 170px;
+    height: 60px;
+    outline: none;
+    display: flex;
+    background: #9C69E2;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 66px;
+}
+    .box3{
+      background: rgba(240, 99, 184, 0.15);
+      border-radius: 50px;
+      width: 1117px;
+      height: 560px;
+      margin: 99px 243px 0 240px;
+      
+      display: flex;
+    }
+    .photo2{
+      margin-left:11px ;
+    }
+    .main{
+      font-family: Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 52px;
+      display: flex;
+    }
+    .title2{
+      width: 475px;
+      height: 100px;
+      margin: 125px 92px 40px 62px;
+      color: #212353;
+    }
+    .text2{
+     margin:0 93px 0 62px;
+    }
+    .title3{
+      justify-content: center;
+      margin-top: 150px;
+      color: #212353;
+    }
+    .text3{
+      display: flex;
+      justify-content: center;
+      height: 58px;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 150px ;
+
+    }
+    .services{
+      font-family: Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 31px;
+      color: #212353;
+      display: flex;
+      align-items: center;
+    }
+    .options-box4{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: #4B5D68;
+      width: 220px;
+      height: 160px;
+    }
+  .search-img{
+    width: 232px;
+    height: 211px;
+    margin-right: 29px;
+  }
+  .hours-img{
+    width: 241px;
+    height: 185px;
+    margin-right: 33px;
+}
+  .print-img{
+    width: 245px;
+    height: 181px;
+    margin-right: 35px;
+  }
+  .security-img{
+    width: 230px;
+    height: 201px;
+    margin-right: 39px;
+  }
+ .blocks{
+   display: flex;
+ }
+  .learn-more{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    text-decoration: none;
+  }
+  .box4{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 250px 250px;
+    gap: 132px 93px;
+    margin-left: 240px;
+  }
+  .box5{
+    background: #9C69E2;
+    border-radius: 50px;
+    width: 1118px;
+    height: 709px;
+    margin-top: 204px;
+    margin-left: 242px;
+  }
+  .bio{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    width: 949px;
+    height: 330px;
+    
+    margin-left: 93px;
+    display: flex;
+  }
+  .title4{
+    display: flex;
+    color: #FFFFFF;
+    padding:109px 620px 88px 93px ;
+      }
+      .man-pht{
+        margin-top: 60px;
+        margin-left: 103px;
+      }
+      .name{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.005em;
+        color: #212353;
+      }
+      .mail{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #9C69E2;
+        text-decoration: none;
+      }
+      .text4{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #4B5D68;
+        width: 566px;
+        height: 130px;
+        margin-left: 44px;
+              }
+        .arrow2{
+          margin-left: 20px;
+        }
+        .arrow1{
+          margin-left: 814px;
+        }
+        .arrows1-2{
+          margin: 60px 0 0 93px;
+        }
+        .name-mail{
+          margin-top: 80px;
+          margin-left: 44px;
+        }
+      
+    .title5{
+      color: #212353;
+    }
+    .pink-btn{
+      background: #F063B8;
+      margin-top: 0;
+      margin-right: 20px;
+    }
+    .dataware{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 160%;
+      color: #212353;
+    }
+    .address{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 180%;
+      letter-spacing: 0.01em;
+      color: #212353;
+      margin-top: 67px;
+    }
+    .last-text{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 180%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.01em;
+      color: #212353;
+    }
+    li{
+      list-style-type: none;
+      font-family: Avenir;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 250%;
+      color: #212353;
+    }
+    .text-info{
+      font-family: 'Rubik', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 160%;
+      color: #212353;
+      margin-bottom: 30px;
+    }
+    hr{
+      width: 100%;
+      height: 2px;
+      background: #9C69E2;
+      opacity: 0.2;
+      margin-top: 150px;
+    }
+    .buttons{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 121px;
+     margin-left: 302px;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+    }
+    .hub{
+      display: flex;
+      margin-top: 100px;
+      margin-left: 240px;
+    }
+    .colomns{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 153px;
+    }
+    .message{
+      align-self: flex-end;
+      margin-right: 243px;
+    }
+    .mail-box{
+      margin-top: 10px;
+    }
+    .last-text-box{
+      margin-top: 118px;
+    }
+    .social+.social{
+      margin-left: 14px;
+  }
+  .footer-options{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+    text-decoration: none;
+  }
